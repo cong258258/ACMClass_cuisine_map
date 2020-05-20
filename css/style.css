@@ -3,6 +3,7 @@
           box-sizing: border-box;
 }
 
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,8 +14,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100vw;
-  height: 100vh;
+  width: 0vw;
+  height: 0vh;
 }
 
 .popup {
@@ -50,8 +51,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 800px;
-  max-height: 600px;
+  max-width: 80vw;
+  max-height: 80vh;
   width: 60%;
   height: 80%;
   background-color: #fff;
